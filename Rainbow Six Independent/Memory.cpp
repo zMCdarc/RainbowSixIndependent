@@ -7,7 +7,7 @@
 
 //All offset variables hardcoded
 namespace Offset {
-    DWORD_PTR GameManager = 0x47F00D0;
+    DWORD_PTR GameManager = 0x4807FC8;
     DWORD_PTR EntityList = 0xC0;
     
     DWORD_PTR Entity = 0x0008;
@@ -37,7 +37,7 @@ namespace Offset {
     DWORD_PTR AdsRecoil = 0x330;
     
     DWORD_PTR Renderer = 0x47A4930;
-    DWORD_PTR GameRenderer = 0x0;
+    DWORD_PTR GameRenderer = 0x47BC660;
     DWORD_PTR EngineLink = 0xd8;
     DWORD_PTR Engine = 0x218;
     DWORD_PTR Camera = 0x38;
