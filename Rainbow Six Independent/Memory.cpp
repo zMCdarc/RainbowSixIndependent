@@ -7,21 +7,21 @@
 
 //All offset variables hardcoded
 namespace Offset {
-    DWORD_PTR GameManager = 0x4807FC8;
-    DWORD_PTR EntityList = 0xC0;
+    DWORD_PTR GameManager = 0x4A8BE58;
+    DWORD_PTR EntityList = 0xB8;
     
     DWORD_PTR Entity = 0x0008;
     DWORD_PTR EntityRef = 0x20;
     
     DWORD_PTR EntityInfo = 0x18;
-    DWORD_PTR MainComponent = 0xB8;
+    DWORD_PTR MainComponent = 0xA8;
     DWORD_PTR ChildComponent = 0x8;
-    DWORD_PTR Health = 0x108;
+    DWORD_PTR Health = 0x118;
     
     DWORD_PTR PlayerInfo = 0x2A0;
     DWORD_PTR PlayerInfoDeref = 0x0;
-    DWORD_PTR PlayerTeamId = 0x140;
-    DWORD_PTR PlayerName = 0x158;
+    DWORD_PTR PlayerTeamId = 0x148;
+    DWORD_PTR PlayerName = 0x170;
     
     DWORD_PTR FeetPosition = 0x1C0;
     DWORD_PTR HeadPosition = 0x160;
@@ -36,9 +36,9 @@ namespace Offset {
     DWORD_PTR Recoil3 = 0x304;
     DWORD_PTR AdsRecoil = 0x330;
     
-    DWORD_PTR Renderer = 0x47A4930;
-    DWORD_PTR GameRenderer = 0x47BC660;
-    DWORD_PTR EngineLink = 0xd8;
+    DWORD_PTR Renderer = 0x0;
+    DWORD_PTR GameRenderer = 0x4A30790;
+    DWORD_PTR EngineLink = 0x120;
     DWORD_PTR Engine = 0x218;
     DWORD_PTR Camera = 0x38;
     
